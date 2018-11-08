@@ -40,7 +40,7 @@ module.exports = {
           name: 'images/[hash]-[name].[ext]'
         }
       }
-    }, 
+    },
       {
        test: /\.jsx?$/,
        enforce: "pre",
@@ -75,7 +75,7 @@ module.exports = {
       new HtmlWebpackPlugin({
         template:'template.ejs',
         appMountId: 'react-app-root',
-        title: 'React Help Queue',
+        title: 'Mixfont',
         filename: resolve(__dirname, "build", "index.html"),
       }),
     ]
