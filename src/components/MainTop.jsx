@@ -1,5 +1,6 @@
 import React from 'react';
 import MainTopButton  from './MainTopButton';
+import MainTopCounter from './MainTopCounter';
 
 function MainTop(){
   return (
@@ -8,6 +9,8 @@ function MainTop(){
           .mainTopStyle {
             text-align: center;
             margin-top: 110px;
+            margin-left: 40px;
+            margin-right: 40px;
           }
           .mainTitleStyle {
             font-family: 'Rubik';
@@ -25,6 +28,7 @@ function MainTop(){
             <h1 className='mainTitleStyle'>A modern font generator</h1>
             <h3 className='mainSubTitleStyle'>Mixfont is a fun and simple way to discover <br></br>and visualize new fonts.</h3>
             <MainTopButton/>
+            <MainTopCounter/>
           </div>
     </div>
   );

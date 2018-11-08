@@ -12,6 +12,8 @@ function Header(){
             justify-content: space-between;
             align-items: center;
             padding: 16px 0;
+            margin-left: 40px;
+            margin-right: 40px;
           }
           .headerRightStyle {
             display: flex;
