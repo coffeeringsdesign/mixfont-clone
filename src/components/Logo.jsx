@@ -1,5 +1,6 @@
 import React from 'react';
 import mixfontLogo from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 
 function Logo(){
   return (
@@ -11,9 +12,10 @@ function Logo(){
 
           }
           .logoTextStyle {
-            font-family: 'Jaldi', sans-serif;
-            font-size: 30px;
+            font-family: Rubik;
+            font-size: 23px;
             letter-spacing: 1px;
+
           }
           .logoImageStyle {
             width: 30px;
@@ -22,7 +24,7 @@ function Logo(){
           }
             `}</style>
           <img className='logoImageStyle' src={mixfontLogo}/>
-          <h1 className='logoTextStyle'>MIXFONT</h1>
+          <h1 className='logoTextStyle'><Link to='/'>MIXFONT</Link></h1>
     </div>
   );
 }

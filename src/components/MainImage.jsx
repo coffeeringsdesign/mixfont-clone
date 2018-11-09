@@ -8,15 +8,14 @@ function MainImage(){
       <style jsx>{`
           .mainImageStyle {
             text-align: center;
-            margin-left: 0 0 !important;
-            margin-top: 110px;
             height: 400px;
             overflow: hidden;
             display: flex;
             align-items: center;
+            margin: 110px 0 0 0;
           }
           .mainPaperImage {
-            width: 100vw;
+            width: 100%;
 
           }
             `}</style>

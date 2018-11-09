@@ -5,6 +5,12 @@ import MainContent from './MainContent';
 function Welcome(){
   return (
     <div className= 'welcomeStyle'>
+      <style jsx>{`
+          .welcomeStyle {
+
+          }
+
+              `}</style>
       <Header/>
       <MainContent/>
     </div>
